@@ -4,7 +4,7 @@
   margin: 0 auto;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-
+/* Антон, спасибо большое за работу я внес текущие изменения. Что-то было не понятно из за не внимательности но я думаю что с опытом научусь обращать внимание на такие вещи с модификаторами. */
 
 /* header */
 
@@ -16,12 +16,12 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  overflow: visible; /* + */
+  overflow: visible;
 }
 
 .logo_place_header {
   position: absolute;
-  width: 228px; /* + */
+  width: 228px;
   height: 32px;
   top: 30px;
   left: 64px;
@@ -37,7 +37,7 @@
   margin-left: 64px;
   display: flex;
   margin-top: 0;
-  margin-bottom: 0; /* + */
+  margin-bottom: 0;
 }
 
 .header__subtitle {
@@ -47,8 +47,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  max-width: 388px; /* + */
-  margin-top: 0; /* + */
+  max-width: 388px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -57,15 +57,15 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 765px; /* + */
-  height: 608px; /* + */
+  width: 765px;
+  height: 608px;
   z-index: 1;
-  object-fit: cover; /* + */
+  object-fit: cover;
 }
 
 
 .header__square-pic {
-  width: 568px; /* + */
+  width: 568px;
   height: 568px;
   background: #2f80ed;
   position: absolute;
@@ -87,19 +87,19 @@
   justify-content: space-between;
   padding-top: 100px;
   padding-bottom: 100px;
-  width: 80%; /* + */
+  width: 80%;
   margin: auto;
   gap: 60px 20px;
 
 }
 
 .two-columns__brief {
-  min-width: 175px;
+  max-width: 175px; /* + */
   font-weight: normal;
   font-size: 18px;
-  line-height: 1.2; /* + */
+  line-height: 1.2;
   color: #2f80ed;
-  margin-top: 0; /* + */
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -119,12 +119,12 @@
   font-size: 24px;
   line-height: 34px;
   margin-top: 0;
-  margin-bottom: 30px; /* + */
+  margin-bottom: 30px;
 }
 
 
 .two-columns__paragraph:last-child{
-  margin-bottom: 0px; /* + */
+  margin-bottom: 0px;
 }
 
 .two-columns__span-accent {
@@ -137,7 +137,7 @@
 /* digits */
 
 .digits {
-  padding-bottom: 100px; /* + */
+  padding-bottom: 100px;
 }
 
 .section-title {
@@ -176,6 +176,7 @@
   width: 1100px;
   flex-wrap: wrap;
   align-content: center;
+  justify-content: space-between; /* + */
 }
 
 
@@ -189,17 +190,12 @@
 }
 
 
-.table__cell:last-child{
-  margin-bottom: 0px; /* + */
-}
-
-
 .table__heading {
   font-weight: 600;
   font-size: 24px;
   line-height: 1.15;
   margin-top: 0;
-  margin-bottom: 20px; /* + */
+  margin-bottom: 20px;
 }
 
 
@@ -209,23 +205,26 @@
   font-size: 18px;
   line-height: 1.2;
   margin-top: 0;
-  margin-bottom: 20px; /* + */
+  margin-bottom: 20px;
 }
 
+.table__text:last-child {
+  margin-bottom: 0px; /* + */
+}
 
 /* Feinman */
 
 
 .feynman__title {
   font-weight: 600;
-  line-height: 1.15; /* + */
+  line-height: 1.15;
   font-size: 120px;
   text-align: center;
   max-width: 648px;
   padding-top: 100px;
   margin: auto;
   margin-top: 0;
-  margin-bottom: 0; /* + */
+  margin-bottom: 0;
 }
 
 
@@ -236,16 +235,16 @@
   padding-top: 70px;
   line-height: 51px;
   margin-top: 0;
-  margin-bottom: 0; /* + */
+  margin-bottom: 0;
 }
 
 
 .feynman__link {
   font-size: 36px;
   position: absolute;
-  right: 48px; /* + */
+  right: 48px;
   top: 50%;
-  line-height: 36px;
+  line-height: 51px; /* + */
   align-items: center;
   display: flex;
   color: #2f80ed;
@@ -258,7 +257,7 @@
 .feynman {
   background-color: #f2f2f2;
   width: 100%;
-  min-height: 890px; /* + */
+  min-height: 890px;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: 1% 100%;
@@ -267,30 +266,40 @@
 }
 
 
-/*Kaufman*/
+/*Kaufman*/   /* По БЭМ валидатору получаются такие наименования table_theme_dark и table__cell_theme_dark */
 
 .kaufman {
   background-color: #1f1f1f;
   background-repeat: no-repeat;
   background-position: 125% 10%;
   background-size: 60%;
-  padding-top: 90px;
+  padding-top: 90px; /* + */
+  padding-bottom: 90px; /* + */
   overflow: hidden;
   position: relative;
 
 }
 
 
-.table__theme_dark { /* + */
+.table_theme_dark {
+  display: flex;
+  gap: 80px 20px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: auto;
+  width: 1100px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+
+.table__cell_theme_dark {
   color: white;
   width: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: flex-start;
-  justify-content: space-between;
-  z-index: 1; /* подскажите пожалуйста как эту таблицу нормально сделать, может быть гридами? я уже чего только не перепробовал флекс у меня тут не работает, все сползает... а в чатике мне уже как-то стыдно спрашивать потому что и так сильно отстаю уже */
+  z-index: 1;
 }
+
 
 .section-title_theme_dark {
   color: white;
@@ -313,12 +322,12 @@
 .kaufman__triangle {
   position: absolute;
   color: #2f80ed;
-  bottom: -235px;
+  top: 0px;
   width: 877px;
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   right: -210px;
-  background-size: contain;
+  background-size: cover; /* + */
 }
 
 
@@ -347,34 +356,28 @@
   margin-left: auto;
 }
 
-.footer__column_content_copyright {
-  color: white; /* + */
+.footer__column_content_copyright { /* + */
+  color: white;
   flex-basis: 711px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: flex-start;
-  flex-direction: row-reverse;
-  align-content: flex-end;
+  justify-content: space-between; /* + */
+  flex-direction: column;
 }
 
-.logo_place_footer {
-  position: absolute;
-  width: 228px; /* + */
+.logo_place_footer { /* + */
+  width: 228px;
   height: 32px;
   align-items: center;
 }
-
-
 
 .footer__author {
   font-weight: normal;
   font-size: 18px;
   display: flex;
   color: white;
-  margin-top: 18px; /* + */
+  margin-top: 18px;
   margin-bottom: 18px;
-  line-height: 25px; /* + */
+  line-height: 25px;
 }
 
 
@@ -389,7 +392,7 @@
 }
 
 
-/* + */
+
 .footer__column-heading {
   font-weight: 600;
   font-size: 18px;
@@ -398,7 +401,7 @@
   margin: 0;
 }
 
-/* + */
+
 .footer__column-link {
   font-weight: normal;
   font-size: 18px;
@@ -407,10 +410,10 @@
   color: white;
 }
 
-.footer__column-links { /* + */
-  list-style-type: none; /* Убираем маркеры */
-  margin-left: 0; /* Отступ слева в браузере IE и Opera */
-  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+.footer__column-links {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 
