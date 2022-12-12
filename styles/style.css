@@ -94,7 +94,7 @@
 }
 
 .two-columns__brief {
-  max-width: 175px; /* + */
+  max-width: 175px;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.2;
@@ -176,7 +176,7 @@
   width: 1100px;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-between; /* + */
+  justify-content: space-between;
 }
 
 
@@ -209,7 +209,7 @@
 }
 
 .table__text:last-child {
-  margin-bottom: 0px; /* + */
+  margin-bottom: 0px;
 }
 
 /* Feinman */
@@ -244,7 +244,7 @@
   position: absolute;
   right: 48px;
   top: 50%;
-  line-height: 51px; /* + */
+  line-height: 51px;
   align-items: center;
   display: flex;
   color: #2f80ed;
@@ -260,8 +260,8 @@
   min-height: 890px;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
-  background-position: 1% 100%;
-  background-size: 50%;
+  background-position: 0% 100%; /* + */
+  background-size:  867px 637px; /* + */
   position: relative;
 }
 
@@ -273,8 +273,8 @@
   background-repeat: no-repeat;
   background-position: 125% 10%;
   background-size: 60%;
-  padding-top: 90px; /* + */
-  padding-bottom: 90px; /* + */
+  padding-top: 90px;
+  padding-bottom: 90px;
   overflow: hidden;
   position: relative;
 
@@ -286,6 +286,7 @@
   gap: 80px 20px;
   padding-left: 0;
   padding-right: 0;
+  padding-top: 80px; /* + */
   margin: auto;
   width: 1100px;
   flex-wrap: wrap;
@@ -303,7 +304,8 @@
 
 .section-title_theme_dark {
   color: white;
-
+  z-index: 1; /* + */
+  position: relative;
 }
 
 .section-subtitle_theme_dark {
@@ -327,7 +329,7 @@
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   right: -210px;
-  background-size: cover; /* + */
+  background-size: cover;
 }
 
 
@@ -356,15 +358,15 @@
   margin-left: auto;
 }
 
-.footer__column_content_copyright { /* + */
+.footer__column_content_copyright {
   color: white;
   flex-basis: 711px;
   display: flex;
-  justify-content: space-between; /* + */
+  justify-content: space-between;
   flex-direction: column;
 }
 
-.logo_place_footer { /* + */
+.logo_place_footer {
   width: 228px;
   height: 32px;
   align-items: center;
@@ -414,6 +416,8 @@
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
+  margin-top: 20px;
+  margin-bottom: 16px
 }
 
 
