@@ -1,0 +1,6 @@
+@import url(../blocks/footer/content_/footer__column_content_social.css);
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}

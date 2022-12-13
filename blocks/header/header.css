@@ -1,0 +1,73 @@
+/* header */
+@import url(../blocks/header/header.css);
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  overflow: visible;
+}
+
+.logo_place_header {
+  position: absolute;
+  width: 228px;
+  height: 32px;
+  top: 30px;
+  left: 64px;
+  align-items: center;
+}
+
+.header__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 102px;
+  line-height: 96px;
+  max-width: 730px;
+  margin-left: 64px;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  max-width: 388px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 1;
+  object-fit: cover;
+}
+
+
+.header__square-pic {
+  width: 568px;
+  height: 568px;
+  background: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}

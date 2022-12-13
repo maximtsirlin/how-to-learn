@@ -1,0 +1,18 @@
+@import url(../blocks/header/_type/header__square-pic_type_rotate.css);
+
+
+.header__square-pic_type_rotate {
+  animation: rotation 20s linear infinite;
+  overflow:hidden; /* не совсем разобрался в формулировке что значит, чтобы квадрат при повороте не переполнял родительский блок */
+
+}
+
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

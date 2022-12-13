@@ -1,0 +1,22 @@
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_type/header__square-pic_type_rotate.css);
+
+
+
+@import url(../blocks/desctiption/desription.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/feynman/feynman.css);
+
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/_theme/section-title_theme_dark.css);
+@import url(../blocks/kaufman/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/kaufman/_theme/table_theme_dark.css);
+@import url(../blocks/kaufman/_theme/table__cell_theme_dark.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/content_/footer__column_content_copyright.css);
+@import url(../blocks/footer/content_/footer__column_content_info.css);
+@import url(../blocks/footer/content_/footer__column_content_social.css);
+

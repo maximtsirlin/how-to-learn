@@ -1,0 +1,31 @@
+@import url(../blocks/kaufman/kaufman.css);
+
+.kaufman {
+  background-color: #1f1f1f;
+  background-repeat: no-repeat;
+  background-position: 125% 10%;
+  background-size: 60%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  overflow: hidden;
+  position: relative;
+}
+
+.kaufman_title {
+  font-weight: 600;
+  font-size: 70px;
+  text-align: center;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  color: #2f80ed;
+  top: 0px;
+  width: 877px;
+  height: 877px;
+  background-image: url(/images/kaufman-triangle.svg);
+  right: -210px;
+  background-size: cover;
+}

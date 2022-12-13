@@ -1,0 +1,8 @@
+@import url(../blocks/footer/content_/footer__column_content_copyright.css);
+.footer__column_content_copyright {
+  color: white;
+  flex-basis: 711px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}

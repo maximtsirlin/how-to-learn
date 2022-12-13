@@ -1,0 +1,8 @@
+@import url(../blocks/kaufman/_theme/section-title_theme_dark.css);
+
+
+.section-title_theme_dark {
+  color: white;
+  z-index: 1; /* + */
+  position: relative;
+}
