@@ -1,9 +1,8 @@
-@import url(../blocks/oakley/oakley.css);
+
 
 
 .oakley {
   padding-top: 160px;
-  padding-bottom: 100px;
   background-color: #f2f2f2;
-  position: relative;
+
 }

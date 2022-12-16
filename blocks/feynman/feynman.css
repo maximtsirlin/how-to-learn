@@ -1,6 +1,5 @@
 /* Feinman */
 
-@import url(../blocks/feynman/feynman.css);
 
 
 .feynman__title {
@@ -45,7 +44,7 @@
   background-color: #f2f2f2;
   width: 100%;
   min-height: 890px;
-  background-image: url(/images/feynman.png);
+  background-image: url(../../images/feynman.png);
   background-repeat: no-repeat;
   background-position: 0% 100%; /* + */
   background-size:  867px 637px; /* + */

@@ -1,8 +1,11 @@
-@import url(../blocks/video/video.css);
+
 
 .video {
 padding-bottom: -80px;
+overflow: visible;
 position: relative;
+height: 440px;
+padding-top: 100px;
 }
 
 .section-title {
@@ -43,5 +46,6 @@ position: relative;
 }
 
 .video__iframe {
-
+  width: 515px;
+  height: 316px;
 }
