@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
@@ -19,7 +18,7 @@
         своей жизни? <a class="header__link" href="#">Узнать → </a></p>
       <img src="./images/two_again.png" alt="«Опять двойка» — картина художника Фёдора Решетникова"
         class="header__main-illustration">
-      <div class="header__square-pic rotation"></div>
+      <div class="header__square-pic header__square-pic_type_rotation"></div>
     </header>
 
 
@@ -175,7 +174,7 @@
 
       <section class="khan">
         <div class="khan__container">
-          <p class="khan__autor">Салман Хан</p>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
           <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
             миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
@@ -249,7 +248,7 @@
             <p class="table__text">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle rotation"></div>
+        <div class="kaufman__triangle kaufman__triangle_type_rotation"></div>
       </section>
 
       <section class="resources">
@@ -257,25 +256,15 @@
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
 
 
-        <ul class="resources__logo-zone">
-          <li class="resources__link">
-            <a href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
-          </li>
-          <li class="resources__link">
-            <a href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н + 1"></a>
-          </li>
-          <li class="resources__link">
-            <a href="#"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
-          </li>
-          <li class="resources__link">
-            <a href="#"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
-          </li>
-        </ul>
-
+        <div class="resources__logo-zone">
+            <a href="#"><img class="resources__link resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
+            <a href="#"><img class="resources__link resources__logo" src="./images/logo/resources-n1.svg" alt="Н + 1"></a>
+            <a href="#"><img class="resources__link resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
+            <a href="#"><img class="resources__link resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
+        </div>
       </section>
 
   </main>
-  </div>
 
   <footer class="footer">
     <div class="footer__columns">
@@ -305,6 +294,7 @@
       </nav>
     </div>
   </footer>
+</div>
 </body>
 
 </html>

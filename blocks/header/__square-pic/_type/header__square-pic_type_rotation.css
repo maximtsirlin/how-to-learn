@@ -1,0 +1,14 @@
+.header__square-pic_type_rotation { /* возможно я мог сделать какую-то ошибку но кажется как-то так */
+  animation: rotation 20s linear infinite;
+
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

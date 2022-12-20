@@ -1,7 +1,6 @@
 .video {
-  margin-bottom: 50px;
+  margin-bottom: -50px; /* + */
   overflow: visible;
   position: relative;
-  max-height: 440px;
   padding-top: 100px;
 }
