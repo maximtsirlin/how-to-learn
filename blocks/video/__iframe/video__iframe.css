@@ -5,4 +5,7 @@
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0; /* Тут тоже не очень понял что именно является дефолтной границей */
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
   }
