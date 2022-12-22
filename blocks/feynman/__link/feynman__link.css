@@ -8,9 +8,10 @@
   display: flex;
   color: #2f80ed;
   text-decoration: none;
+  transition: 1s linear;
 }
 
 
 .feynman__link:hover {
-  opacity: 0.6;
+  opacity: .2;
 }
