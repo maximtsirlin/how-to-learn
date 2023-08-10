@@ -1,6 +1,4 @@
-█░░█ █▀▀█ █░░░█ 　 ▀▀█▀▀ █▀▀█ 　 █░░ █▀▀ █▀▀█ █▀▀█ █▀▀▄
-█▀▀█ █░░█ █▄█▄█ 　 ░░█░░ █░░█ 　 █░░ █▀▀ █▄▄█ █▄▄▀ █░░█
-▀░░▀ ▀▀▀▀ ░▀░▀░ 　 ░░▀░░ ▀▀▀▀ 　 ▀▀▀ ▀▀▀ ▀░░▀ ▀░▀▀ ▀░░▀
+
 
 This is long page about motivation with some content how to learn. We can use here information, for example: can read book or watch video on YouTube, can inspiration infographics and ideas.
 
@@ -17,7 +15,7 @@ API;
 Simple css animation;
 
 Add Smoothness to Animations, add target="_blank" attribute, use max-width and width:100% when responsive
-
+https://maximtsirlin.github.io/how-to-learn/
 ▲
 ▲ ▲
 ..(\ /)
